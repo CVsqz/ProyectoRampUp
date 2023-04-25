@@ -1,0 +1,319 @@
+/*Estos son los estilos de la pag de inicio*/
+
+*{
+    font-family: 'Audiowide';
+    font-size: medium;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0
+}
+@media (min-width:380px) and (max-width: 1024px) {
+    * {
+      font-size: 14px;
+    }
+  } 
+body{
+    background-image: url(/assets/henkawallpaper.jpg) ;
+    background-size: cover;
+    margin: auto;
+}
+hr{
+    height: 5px;
+    
+}
+a{
+    color:rgb(159, 137, 28);
+    text-decoration: none;
+}
+h1{
+    font-size: 30;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+    text-align: center;
+    color: rgb(159, 137, 28);
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+.navbar{
+    height: 70px;
+    padding: 0 30px;
+}
+.container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+.navbar a:hover{
+    color: #0529cb;
+    border-bottom: 3px solid #0529cb;
+}
+img{
+    display: block;
+    width: 20%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    image-resolution: 300dpi;
+    border-style: solid;
+    border-color: rgb(159, 137, 28);
+}
+.titlepost{
+    text-align: center;
+    color: rgb(159, 137, 28);
+    font-size: x-small;
+    font-family: 'Audiowide';
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+article{
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 20px;    
+    font-size: x-small;
+    color:rgb(159, 137, 28);
+}
+footer p{
+    color: rgb(159, 137, 28);
+    text-align: center;
+    margin-top: 150px;
+}
+
+/* a partir de aqui son los estilos de la bio*/
+
+h2{
+    font-size: 30;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+    text-align: center;
+    color: rgb(159, 137, 28);
+}
+.containerbio{
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+.navbarbio{
+    height: 70px;
+    padding: 0 30px;
+}
+.containerbio ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+.navbarbio a:hover{
+    color: #0529cb;
+    border-bottom: 3px solid #0529cb;
+}  
+.divbio img{
+    display: block;
+    width: 20%;
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    image-resolution: 300dpi;
+}
+.titlepostbio{
+    text-align: center;
+    color: rgb(159, 137, 28);
+    margin-bottom: 15px;
+    font-size: x-small;
+}
+.firstp{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small; 
+    text-align: center;
+    text-align: justify;
+    text-size-adjust: 54%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-weight: bolder;
+    color: rgb(159, 137, 28);
+}
+.articlebio p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small; 
+    text-align: center;
+    text-align: justify;
+    text-size-adjust: 54%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-weight: bolder;
+    color: rgb(159, 137, 28);
+}
+.articlebio img{
+    display: block;
+    width: 25%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    image-resolution: 300dpi;
+}
+.articlebio a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: rgb(159, 137, 28);
+}
+.footerbio img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 40%;
+    height: 35%;
+}
+
+/* A partir de aqui son los styles del portafolio*/
+
+.containerport{
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+.navbarport{
+    height: 70px;
+    padding: 0 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.containerport ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    padding: 25px;
+   
+}
+.navbarport a:hover{
+    color: #0529cb;
+    border-bottom: 3px solid #0529cb;
+}
+.containerport2 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    padding: 25px;
+    
+
+}
+.titleport2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(159, 137, 28);
+}
+.fvperso img{
+    width: 400px;
+    height: 400px;
+    padding: auto;
+    margin: auto;
+    border: rgb(159, 137, 28);
+    border-style: solid;
+}
+.containerport3 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    padding: 25px;
+    
+}
+.containerport4 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    padding: 25px;
+}
+
+/* A partir de aqui los styles de CONTACTO */
+
+.containercon{
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+.containercon ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    padding: 25px;
+}
+.logos *{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 25px;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+
+}
+.text{
+    align-items: center;
+    margin-top: 40px;
+   
+    
+}
+.text p{
+    color: rgb(159, 137, 28);
+    text-align: center;
+    margin-top: 50px;
+}
+.title1con p{
+    color: rgb(159, 137, 28);
+    text-align: center;
+    text-orientation: sideways;
+}
+.title1con input{
+    align-items: center;
+}
+h4{
+    color: rgb(159, 137, 28);
+}
+form {
+    text-align: center;
+    margin-top: 15px;
+    
+}
+textarea{
+    background-color: rgb(160, 163, 165);
+}
+input{
+    background-color:rgb(160, 163, 165);
+}
+select{
+    background-color: rgb(160, 163, 165);
+}
+button{
+    margin-top: 10px;
+    margin-left: 740px;
+}
+footer p{
+    text-align: center;
+}
